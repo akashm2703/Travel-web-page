@@ -1,0 +1,45 @@
+img{
+  width: 100%;
+  height: 800px;
+}
+
+.cardbox{
+  height: 500px;
+  justify-content: space-evenly;
+  padding-left: 60px;
+}
+
+.col{
+  width: 360px;
+  height:50px; 
+  transition: transform 0.3sec,box-shadow 0.3sec;
+}
+
+.col img{
+  width: 340px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.col :hover{
+  transition: 3sec;
+}
+
+.col :hover{
+  transform: translate(-8px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+button{
+  size: 550px;
+ background-color: orange;
+ color: aliceblue;
+ border-color: orange;
+ border-radius: 20px;
+}
+.dest{
+  justify-content: space-between;
+  height: 400px;
+  width: 100%;
+  padding-left: 15%;
+}
